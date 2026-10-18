@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Datasets & Large Data Files (Do not commit large raw or processed datasets)
+*.xlsx
+*.xls
+*.csv
+*.zip
+*.tar.gz
+*.parquet
+online_retail_II.xlsx
+Online_Retail_Cleaned.csv
+
+# Keep sample folder tracked
+!data/sample/
+
+# Operating System & IDE Artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
